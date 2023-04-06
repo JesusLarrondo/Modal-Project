@@ -5,19 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VENTANA MODAL</title>
+    <title>CAJERO ONLINE</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <button class="show-modal">Abrir Modal</button>
+    <button class="show-modal">Abrir Cajero Online</button>
 
     <div class="modal hidden">
         <button class="close-modal">&times;</button>
-        <h1>Titulo del Modal</h1>
+        <h1>Cuentas</h1>
+
+        <input type="button" id="usuario1" value="" class="button1">
+        <div class="cuenta1 hidden">
+            <input type="password" id="password" placeholder="INTRODUCE TU NIP">
+            <input type="button" class="enter" value="Ingresar" onclick="login()">
+            <button class="close-password">&times;</button>
+        </div>
+
+        <input type="button" id="usuario2" value="" class="button2">
+        <div class="cuenta2 hidden">
+            <label for="password"></label>
+            <input type="password" id="password2" placeholder="INTRODUCE TU NIP">
+            <input type="button" class="enter" value="Ingresar" onclick="login2()">
+            <button class="close-password">&times;</button>
+        </div>
+
+        <input type="button" id="usuario3" value="" class="button3">
+        <div class="cuenta3 hidden">
+            <label for="password"></label>
+            <input type="password" id="password3" placeholder="INTRODUCE TU NIP">
+            <input type="button" class="enter" value="Ingresar" onclick="login3()">
+            <button class="close-password">&times;</button>
+        </div>
         <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis explicabo in doloribus ratione consequatur
-            eligendi recusandae.
+            Selecciona tu cuenta e ingresa tu NIP.
         </p>
     </div>
 

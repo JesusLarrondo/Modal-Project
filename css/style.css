@@ -44,6 +44,17 @@ body {
     background: none;
 }
 
+.close-password {
+    position: absolute;
+    top: 1.2rem;
+    right: 2rem;
+    font-size: 5rem;
+    color: #333;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
 h1 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
@@ -80,4 +91,171 @@ p {
     background-color: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(3px);
     z-index: 10;
+}
+
+.button1 {
+    padding: 7.5px 12.5px;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.button2 {
+    padding: 7.5px 12.5px;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.button3 {
+    padding: 7.5px 12.5px;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.enter {
+    padding: 3px 6px;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.cuenta1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    background-color: white;
+    padding: 6rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 20;
+}
+
+.cuenta2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    background-color: white;
+    padding: 6rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 20;
+}
+
+.cuenta3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    background-color: white;
+    padding: 6rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 20;
+}
+
+.movimientos1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    background-color: white;
+    padding: 6rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 20;
+}
+
+#bt1 {
+    padding: 7.5px 12.5px;
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+#bt2 {
+    padding: 7.5px 12.5px;
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+#bt3 {
+    padding: 7.5px 12.5px;
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+#bt4 {
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 2px solid #ff4742;
+    color: #fff;
+    background-color: #ff4742;
+    padding: 8px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 2px 4px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1.5px 0px;
+    font-weight: 400;
+    font-size: 16px;
+    height: 42px;
+}
+
+#bt4 :hover{
+    background: 0 0;
+    color: #ff4742;
+} 
+
+#password {
+    padding: 3px 6px;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.cantidades {
+    padding: 3.5px 6px;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.saldoCantidad {
+    padding: 8px 0 8px 5px;
+    width: 15%;
+    margin: 5px;
+    font-size: 1.5rem;
+}
+
+.btnConfirmar {
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 2px solid #59c93d;
+    color: #fff;
+    background-color: #59c93d;
+    padding: 8px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 2px 4px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1.5px 0px;
+    font-weight: 400;
+    font-size: 16px;
+    height: 42px;
+}
+
+.btnConfirmar :hover{
+    background: 0 0;
+    color: #59c93d;
+}
+
+.hddv {
+    visibility: hidden;
+}
+
+.hddvT {
+    visibility: visible;
 }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAJERO ONLINE</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="movimientos1">
+        <label for="" class="cantidades">Saldo Actual:</label>
+        <input type="text" class="saldoCantidad" name="Cantidad1" id="C1" value="0">
+        <br>
+        <label for="" class="cantidades">Introduce la cantidad del movimiento:</label>
+        <input type="text" class="saldoCantidad" disabled name="" id="Cant" placeholder="Cantidad">
+        <input type="button" class="btnConfirmar hddv" hidden value="Confirmar Monto" id="btnM" onclick="formula2()">
+        <input type="button" class="btnConfirmar hddv" hidden value="Confirmar Retiro" id="btnR" onclick="formula3()">
+        <br>
+        <br>
+        <h2>Movimientos</h2>
+        <input type="button" class="saldo" value="Consultar Saldo" id="bt1" onclick="formula1()">
+        <input type="button" class="sumaSaldo" value="Ingresar Monto" id="bt2" onclick="habilitarM()">
+        <input type="button" class="restaSaldo" value="Retirar Monto" id="bt3" onclick="habilitarR()">
+        <div class="container">
+            <input type="button" class="logOut" value="Cerrar Sesión" id="bt4" onclick="logOut()">
+        </div>
+    </div>
+
+    <script src="./src/index.js"></script>
+</body>
+
+</html>
